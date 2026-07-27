@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Live Pet AI — Turn your pet photo into a living companion</title>
 <meta name="description" content="Upload one pet photo and let Live Pet AI bring it to life with gentle animated actions, a home-screen widget, and daily interactions.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
 <style>
   :root{
     --coral1:#ff8a65; --coral2:#ff5e62; --ink:#2b2b30; --muted:#6b6b74;
@@ -20,8 +22,8 @@
   a:hover{text-decoration:underline}
   .wrap{max-width:960px;margin:0 auto;padding:0 22px}
   header.hero{background:linear-gradient(160deg,var(--coral1),var(--coral2));color:#fff;padding:72px 0 64px;text-align:center}
-  .badge{width:96px;height:96px;border-radius:24px;background:rgba(255,255,255,.16);
-         display:flex;align-items:center;justify-content:center;margin:0 auto 22px;font-size:52px}
+  .badge{width:110px;height:110px;border-radius:26px;margin:0 auto 22px;display:block;
+         box-shadow:0 12px 30px rgba(0,0,0,.22)}
   header.hero h1{font-size:2.6rem;margin:.1em 0 .2em;font-weight:800;letter-spacing:-.02em}
   header.hero p{font-size:1.2rem;opacity:.95;max-width:620px;margin:0 auto}
   .tag{display:inline-block;margin-top:22px;background:rgba(255,255,255,.18);border-radius:999px;
@@ -47,7 +49,7 @@
 <body>
   <header class="hero">
     <div class="wrap">
-      <div class="badge">🐾</div>
+      <img class="badge" src="icon.png" alt="Live Pet AI app icon" width="110" height="110">
       <h1>Live Pet AI</h1>
       <p>Upload your pet once. Let it live on your phone every day.</p>
       <div class="tag">Turn a single photo into a gentle, living companion</div>
@@ -82,7 +84,7 @@
     <p class="lead">Start free. Upgrade to Pro for more pets and more generated actions.
       Subscriptions are billed through your Apple ID; you can cancel anytime in Settings.</p>
     <div class="grid">
-      <div class="card"><h3>Free</h3><p>1 pet, a demo action, and the full daily companion experience.</p></div>
+      <div class="card"><h3>Free</h3><p>One pet, one action — try the full daily companion experience.</p></div>
       <div class="card"><h3>Pro — Monthly / Yearly</h3><p>Up to 3 pets, 12 AI actions each month, 720p exports with no watermark.</p></div>
     </div>
   </section>
